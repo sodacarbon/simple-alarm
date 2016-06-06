@@ -34,7 +34,7 @@ Return
 
 
 Loop:
-	FormatTime, Current_Time, , HH:mm:ss tt
+	FormatTime, Current_Time, , HH:mm:ss
 	If (Alarm_Time = Current_Time)
 		Goto, Alarm
 Return 
